@@ -5,31 +5,31 @@ import { FaLaptopHouse } from "react-icons/fa";
 
 export const data = {
   details: {
-    firstName: "Utkarsh",
-    lastName: "Singh",
-    role: "Web Developer",
+    firstName: "Laksh",
+    lastName: "Shrivastava",
+    role: "Data Science / Data analyist",
     about:
-      "My expertise lies in frontend development, particularly with Next.js and React, alongside core web technologies like HTML, CSS, and JavaScript",
-    email: "utkarsh13.ugec20@iiitranchi.ac.in",
-    gitHub: "https://github.com/utkarsh0908",
-    instaGram: "https://www.instagram.com/utkarsh.0901/",
-    linkedIn: "https://www.linkedin.com/in/utkarsh-singh-432228213/",
+      "My expertise lies in Machine Learning & Predictive Modeling , NLP , Data Analysis & Visualization,Data Pipeline Development",
+    email: "lshrivastava0909@gmail.com",
+    gitHub: "https://github.com/Laksh04",
+    instaGram: "https://www.instagram.com/lakxzh/",
+    linkedIn: "https://www.linkedin.com/in/laksh-shrivastava-858837215/",
     twitter: "",
   },
   technologiesSection: {
-    heading: "I've worked with a range of technologies related to website development",
+    heading: "I've worked with a range of technologies related to Data Science ",
     tech: [
       {
         id: "1",
         icon: () => <AiFillEdit />,
-        title: "Web Development",
-        des: "Experience with MERN Stack, NextJS, TailwindCSS, Sanity, Firebase",
+        title: "Full Stack Data Sceince",
+        des: "Experience with Machine learning , NLP ,SQL , POWER BI",
       },
       {
         id: "2",
         icon: () => <SiCplusplus />,
         title: "Languages",
-        des: "Proficient in C++, Javascript, Solidity & decent experience in Python, Java and C#",
+        des: "Proficient in python , R , SQL",
       },
     ]
   },
@@ -39,13 +39,14 @@ export const data = {
         id: "1",
         icon: () => <MdOutlineWork />,
         title: "Full Time",
-        des: "As a Frontend Developer at Collegedunia, I optimized key pages using NextJS, ReactJS, and SEO strategies, contributing to a site with 900 million page views and 200 million new visitors monthly.",
+        des: "As a Data Scientist , I developed and implemented predictive models and data-driven solutions using Python, SQL, and machine learning algorithms. By optimizing data pipelines and performing advanced statistical analysis, I contributed to a project that increased operational efficiency.",
       },
       {
         id: "2",
         icon: () => <FaLaptopHouse />,
         title: "Internships",
-        des: "I have completed two internships: at Maximl, where I developed production apps with React.js and Nest.js, and at NeatSkills, where I built and optimized a fullstack edtech web app.",
+        des: "I Led a team of data science interns to work on various NLP-based projects, focusing on resume classification. Collaborated with cross-functional teams to develop and implementmachine learning algorithms for automated resume classification,improving the efficiency of candidate screening."
+
       },
     ]
   },
@@ -53,90 +54,90 @@ export const data = {
     projects: [
       {
         id: "1",
-        title: "Table Tap",
-        img: "./4.png",
-        des: "Webapp which streamlines the restaurant ordering process by allowing customers to conveniently order food and beverages using a QR code on their table",
-        tech: ["NextJs", "Tailwind", "Firebase"],
-        link: "https://github.com/utkarsh0908/Table-Ordering",
+        title: "Resume classification Using NLP.",
+        img: "./RC.png",
+        des: "Developed an automated system to classify resumes into specific job roles using natural language processing (NLP) techniques. Preprocessed resume data by applying tokenization, lemmatization, and stopword removal to standardize text input.",
+        tech: ["NLP", "ML", "STREAMLIT"],
+        link: "https://github.com/Laksh04/RESUME_CLASSIFICATION.git",
       },
       {
         id: "2",
-        title: "Ecommerce Store",
-        img: "./1.png",
-        des: "Webapp that is an online marketplace which can eliminate the need for brick-and-mortar locations",
-        tech: ["NextJS", "TailwindCSS", "Sanity"],
-        link: "https://github.com/utkarsh0908/Store",
+        title: "Food Delivery Time Prediction Using Machine Learning",
+        img: "./FDTP.png",
+        des: "Developed a machine learning model to predict estimated food delivery time, similar to algorithms used by Swiggy and Zomato to enhancecustomer experience by providing accurate delivery time estimates",
+        tech:[  "NLP", "ML", "STREAMLIT"],
+        link: "https://github.com/Laksh04/Food_Delivery_Time_Pred.git",
       },
       {
         id: "3",
-        title: "SecretHub",
-        img: "./2.png",
-        des: "WebApp to post your secrets anonymously. Made using ExpressJS, Bootstrap & MongoDB",
-        tech: ["ExpressJS", "Bootstrap"],
-        link: "https://github.com/utkarsh0908/SecretHub",
+        title: "Diabetes Prediction App",
+        img: "./DP.png",
+        des: "Developed a machine learning model to predict the likelihood of diabetes in patients using medical data (e.g., glucose levels, BMI, age, insulin levels).Performed data cleaning, feature selection, and engineering on the PIMA Indian Diabetes dataset.",
+        tech: ["NLP", "ML", "STREAMLIT"],
+        link: "https://github.com/Laksh04/Dibeties_app.git",
       },
       {
         id: "4",
-        title: "WeatherApp",
-        img: "./3.png",
-        des: "WebApp to display the temperature of your city. Fetches data using RESTful API. Made using ExpressJS & Javascript",
-        tech: ["ExpressJS", "REST_API"],
-        link: "https://github.com/utkarsh0908/WeatherApp",
+        title: "Book Recomendation system",
+        img: "./BRC.png",
+        des: "",
+        tech: ["NLP", "ML", "STREAMLIT"],
+        link: "",
       },
     ]
   }
 };
 
 export const techMain =
-  "I've worked with a range of technologies related to website development";
+  "I've worked with a range of technologies related to DATA science";
 
 
 export const tech = [
   {
     id: "1",
     icon: () => <AiFillEdit />,
-    title: "Web Development",
-    des: "Experience with MERN Stack, NextJS, TailwindCSS, Sanity, Firebase",
+    title: "Full Stack Data Sceince",
+    des: "Experience with Machine learning , NLP ,SQL , POWER BI",
   },
   {
     id: "2",
     icon: () => <SiCplusplus />,
     title: "Languages",
-    des: "Proficient in C++, Javascript, Solidity & decent experience in Python, Java and C#",
+    des: "Proficient in python , R , SQL",
   },
 ];
 
 export const project = [
   {
     id: "1",
-    title: "Table Tap",
-    img: "./4.png",
-    des: "Webapp which streamlines the restaurant ordering process by allowing customers to conveniently order food and beverages using a QR code on their table",
-    tech: ["NextJs", "Tailwind", "Firebase"],
-    link: "https://github.com/utkarsh0908/Table-Ordering",
+    title: "Resume classification Using NLP.",
+    img: "./RC.png",
+    des: "Developed an automated system to classify resumes into specific job roles using natural language processing (NLP) techniques. Preprocessed resume data by applying tokenization, lemmatization, and stopword removal to standardize text input.",
+    tech: ["NLP", "ML", "STREAMLIT"],
+    link: "https://github.com/Laksh04/RESUME_CLASSIFICATION.git",
   },
   {
     id: "2",
-    title: "Ecommerce Store",
-    img: "./1.png",
-    des: "Webapp that is an online marketplace which can eliminate the need for brick-and-mortar locations",
-    tech: ["NextJS", "TailwindCSS", "Sanity"],
-    link: "https://github.com/utkarsh0908/Store",
+    title: "Food Delivery Time Prediction Using Machine Learning",
+    img: "./FDTP.png",
+    des: "Developed a machine learning model to predict estimated food delivery time, similar to algorithms used by Swiggy and Zomato to enhancecustomer experience by providing accurate delivery time estimates",
+    tech:[  "NLP", "ML", "STREAMLIT"],
+    link: "https://github.com/Laksh04/Food_Delivery_Time_Pred.git",
   },
   {
     id: "3",
-    title: "SecretHub",
-    img: "./2.png",
-    des: "WebApp to post your secrets anonymously. Made using ExpressJS, Bootstrap & MongoDB",
-    tech: ["ExpressJS", "Bootstrap"],
-    link: "https://github.com/utkarsh0908/SecretHub",
+    title: "Diabetes Prediction App",
+    img: "./DP.png",
+    des: "Developed a machine learning model to predict the likelihood of diabetes in patients using medical data (e.g., glucose levels, BMI, age, insulin levels).Performed data cleaning, feature selection, and engineering on the PIMA Indian Diabetes dataset.",
+    tech: ["NLP", "ML", "STREAMLIT"],
+    link: "https://github.com/Laksh04/Dibeties_app.git",
   },
   {
     id: "4",
-    title: "WeatherApp",
-    img: "./3.png",
-    des: "WebApp to display the temperature of your city. Fetches data using RESTful API. Made using ExpressJS & Javascript",
-    tech: ["ExpressJS", "REST_API"],
-    link: "https://github.com/utkarsh0908/WeatherApp",
+    title: "Book Recomendation system",
+    img: "./BRC.png",
+    des: "",
+    tech: ["NLP", "ML", "STREAMLIT"],
+    link: "#",
   },
 ];
