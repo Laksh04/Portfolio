@@ -1,5 +1,5 @@
 import { AiFillEdit } from "react-icons/ai";
-import { SiCplusplus } from "react-icons/si";
+import { SiPython } from "react-icons/si";
 import { MdOutlineWork } from "react-icons/md";
 import { FaLaptopHouse } from "react-icons/fa";
 
@@ -27,7 +27,7 @@ export const data = {
       },
       {
         id: "2",
-        icon: () => <SiCplusplus />,
+        icon: () => <SiPython />,
         title: "Languages",
         des: "Proficient in python , R , SQL",
       },
