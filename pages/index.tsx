@@ -19,7 +19,7 @@ const Home = () => {
         <title>
           {details.firstName} {details.lastName} - Portfolio
         </title>
-        <link rel="icon" href="./i.ico" />
+        <link rel="icon" href="./Logo.png" />
       </Head>
 
       <div className="flex flex-row w-full">
