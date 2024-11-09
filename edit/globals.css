@@ -15,5 +15,5 @@ body::-webkit-scrollbar {
     --primary-color: #000000;
     --secondary-color: #00eaff;
     --main-color: #ffffff;
-    --secondaryHover-color: #FCCB06;
+    --secondaryHover-color: ##00eaff;
   }
