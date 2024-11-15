@@ -80,9 +80,9 @@ export const data = {
         id: "4",
         title: "Book Recomendation system",
         img: "./BRC.png",
-        des: "",
+        des: "A Book Recommendation System is a machine learning-based project aimed at predicting and suggesting books to users based on their preferences, behaviors, or interactions. This project demonstrates expertise in data preprocessing, exploratory data analysis, and implementing various recommendation algorithms.",
         tech: ["NLP", "ML", "STREAMLIT"],
-        link: "",
+        link: "https://github.com/Laksh04/-Book-Recommendation-System.git",
       },
     ]
   }
@@ -136,8 +136,8 @@ export const project = [
     id: "4",
     title: "Book Recomendation system",
     img: "./BRC.png",
-    des: "",
+    des: "A Book Recommendation System is a machine learning-based project aimed at predicting and suggesting books to users based on their preferences, behaviors, or interactions. This project demonstrates expertise in data preprocessing, exploratory data analysis, and implementing various recommendation algorithms.",
     tech: ["NLP", "ML", "STREAMLIT"],
-    link: "#",
+    link: "https://github.com/Laksh04/-Book-Recommendation-System.git",
   },
 ];
