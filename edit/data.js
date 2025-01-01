@@ -84,6 +84,14 @@ export const data = {
         tech: ["NLP", "ML", "STREAMLIT"],
         link: "https://github.com/Laksh04/-Book-Recommendation-System.git",
       },
+       {
+        id: "5",
+        title: " EV-Market-Analysis",
+        img: "./ev adoption over time.png",
+        des: "Electric Vehicles Market Size Analysis Market size analysis is a crucial aspect of market research that determines the potential sales volume within agiven market. It helps businesses understand the magnitude of demand, assess market saturation levels, and identify growth opportunities.",
+        tech: ["DATA ANALYSIS","SEABORN "],
+        link: "https://github.com/Laksh04/EV-Market-Analysis.git",
+      },
     ]
   }
 };
@@ -140,4 +148,12 @@ export const project = [
     tech: ["NLP", "ML", "STREAMLIT"],
     link: "https://github.com/Laksh04/-Book-Recommendation-System.git",
   },
+  {
+        id: "5",
+        title: " EV-Market-Analysis",
+        img: "./ev adoption over time.png",
+        des: "Electric Vehicles Market Size Analysis Market size analysis is a crucial aspect of market research that determines the potential sales volume within agiven market. It helps businesses understand the magnitude of demand, assess market saturation levels, and identify growth opportunities.",
+        tech: ["DATA ANALYSIS","SEABORN "],
+        link: "https://github.com/Laksh04/EV-Market-Analysis.git",
+      },
 ];
