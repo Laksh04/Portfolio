@@ -56,7 +56,7 @@ export const data = {
       {
         id: "1",
         title: "WebTalker - Using LLama 3.3.",
-        img: "./RC.png",
+        img: "./LLM.png",
         des: "Developed an AI chatbot to interact with website content using Llama 3.3-70b Versatile for natural language understanding.Implemented a retrieval-augmented generation (RAG) framework utilizing HuggingFace embeddings and Chroma vector storesfor high-fidelity semantic retrieval.Designed an intuitive Streamlit interface, facilitating seamless, real-time engagement with web-based content..",
         tech: ["LLAMA 3", "RAG", "STREAMLIT"],
         link: "https://webtalker--using-llama-3-zet6lw3iadkacuvv6np9jq.streamlit.app/",
@@ -128,7 +128,7 @@ export const project = [
    {
         id: "1",
         title: "WebTalker - Using LLama 3.3.",
-        img: "./RC.png",
+        img: "./LLM.png",
         des: "Developed an AI chatbot to interact with website content using Llama 3.3-70b Versatile for natural language understanding.Implemented a retrieval-augmented generation (RAG) framework utilizing HuggingFace embeddings and Chroma vector storesfor high-fidelity semantic retrieval.Designed an intuitive Streamlit interface, facilitating seamless, real-time engagement with web-based content..",
         tech: ["LLAMA 3", "RAG", "STREAMLIT"],
         link: "https://webtalker--using-llama-3-zet6lw3iadkacuvv6np9jq.streamlit.app/",
