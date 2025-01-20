@@ -52,8 +52,17 @@ export const data = {
   },
   projectsSection: {
     projects: [
+     
       {
         id: "1",
+        title: "WebTalker - Using LLama 3.3.",
+        img: "./RC.png",
+        des: "Developed an AI chatbot to interact with website content using Llama 3.3-70b Versatile for natural language understanding.Implemented a retrieval-augmented generation (RAG) framework utilizing HuggingFace embeddings and Chroma vector storesfor high-fidelity semantic retrieval.Designed an intuitive Streamlit interface, facilitating seamless, real-time engagement with web-based content..",
+        tech: ["LLAMA 3", "RAG", "STREAMLIT"],
+        link: "https://webtalker--using-llama-3-zet6lw3iadkacuvv6np9jq.streamlit.app/",
+      },
+      {
+        id: "2",
         title: "Resume classification Using NLP.",
         img: "./RC.png",
         des: "Developed an automated system to classify resumes into specific job roles using natural language processing (NLP) techniques. Preprocessed resume data by applying tokenization, lemmatization, and stopword removal to standardize text input.",
@@ -61,7 +70,7 @@ export const data = {
         link: "https://github.com/Laksh04/RESUME_CLASSIFICATION.git",
       },
       {
-        id: "2",
+        id: "3",
         title: "Food Delivery Time Prediction Using Machine Learning",
         img: "./FDTP.png",
         des: "Developed a machine learning model to predict estimated food delivery time, similar to algorithms used by Swiggy and Zomato to enhancecustomer experience by providing accurate delivery time estimates",
@@ -69,7 +78,7 @@ export const data = {
         link: "https://github.com/Laksh04/Food_Delivery_Time_Pred.git",
       },
       {
-        id: "3",
+        id: "4",
         title: "Diabetes Prediction App",
         img: "./DP.png",
         des: "Developed a machine learning model to predict the likelihood of diabetes in patients using medical data (e.g., glucose levels, BMI, age, insulin levels).Performed data cleaning, feature selection, and engineering on the PIMA Indian Diabetes dataset.",
@@ -77,7 +86,7 @@ export const data = {
         link: "https://github.com/Laksh04/Dibeties_app.git",
       },
       {
-        id: "4",
+        id: "5",
         title: "Book Recomendation system",
         img: "./BRC.png",
         des: "A Book Recommendation System is a machine learning-based project aimed at predicting and suggesting books to users based on their preferences, behaviors, or interactions. This project demonstrates expertise in data preprocessing, exploratory data analysis, and implementing various recommendation algorithms.",
@@ -85,7 +94,7 @@ export const data = {
         link: "https://github.com/Laksh04/-Book-Recommendation-System.git",
       },
        {
-        id: "5",
+        id: "6",
         title: " EV-Market-Analysis",
         img: "./ev adoption over time.png",
         des: "Electric Vehicles Market Size Analysis Market size analysis is a crucial aspect of market research that determines the potential sales volume within agiven market. It helps businesses understand the magnitude of demand, assess market saturation levels, and identify growth opportunities.",
@@ -116,6 +125,14 @@ export const tech = [
 ];
 
 export const project = [
+   {
+        id: "1",
+        title: "WebTalker - Using LLama 3.3.",
+        img: "./RC.png",
+        des: "Developed an AI chatbot to interact with website content using Llama 3.3-70b Versatile for natural language understanding.Implemented a retrieval-augmented generation (RAG) framework utilizing HuggingFace embeddings and Chroma vector storesfor high-fidelity semantic retrieval.Designed an intuitive Streamlit interface, facilitating seamless, real-time engagement with web-based content..",
+        tech: ["LLAMA 3", "RAG", "STREAMLIT"],
+        link: "https://webtalker--using-llama-3-zet6lw3iadkacuvv6np9jq.streamlit.app/",
+   },
   {
     id: "1",
     title: "Resume classification Using NLP.",
