@@ -7,7 +7,7 @@ export const data = {
   details: {
     firstName: "Laksh",
     lastName: "Shrivastava",
-    role: "Data Science / Data analyist",
+    role: "Data Science / Data analyst",
     about:
       "My expertise lies in Machine Learning & Predictive Modeling , NLP , Data Analysis & Visualization,Data Pipeline Development",
     email: "lshrivastava0909@gmail.com",
